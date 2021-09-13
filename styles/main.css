@@ -1,0 +1,13 @@
+html{
+    background-color:#FFCBA1;
+}
+
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+}
+
+header img{
+    margin: 0 10px;
+}

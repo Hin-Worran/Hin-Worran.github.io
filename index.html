@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta setchar="utf-8">
-        <meta name="author" content="Hin">
-        <meta name="description" content="Hin's website">
-        <title>Hin's playground</title>
-        <link rel="shortcut icon" href="images/black-head.png">
-        <link href="styles/main.css" rel="stylesheet">
-    </head>
 
-    <body>
-        <header>
-            <img src="images/black-head.svg" alt="" width="100px">
-            <h1>welcome to Hin's playground!</h1>
-        </header>
+<head>
+    <meta setchar="utf-8">
+    <meta name="author" content="Hin">
+    <meta name="description" content="Hin's website">
+    <title>Hin's playground</title>
+    <link rel="shortcut icon" href="images/black-head.png">
+    <link href="styles/main.css" rel="stylesheet">
+</head>
 
-        <main>
-            <section>
-                <h2>欢迎</h2>
-                <p>
-                    欢迎来到Hin's playground，
-                    目前这里空空如也，是一片辽阔旷野，等待你我的书写，
-                    希望未来它能将你的烦恼排解，翻开生活全新一页！
-                </p>
-            </section>
+<body>
+    <header>
+        <img src="images/black-head.svg" alt="" width="100px">
+        <h1>welcome to Hin's playground!</h1>
+    </header>
 
-            <section>
-                <h2>TO DO</h2>
-                <P>
-                    这里可以记录一下我要做的事，目前来说就是学习一下<a href="https://developer.mozilla.org/zh-CN/docs/Learn/">MDN的教程</a>吧,
-                    目前学到<a href="https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Tables/Basics">这里</a>了。
-                </P>
-            </section>
-        </main>
+    <nav>
+        <h2>目录</h2>
+        <ul>
+            <li><a href="#welcome">欢迎</a></li>
+            <li><a href="#todo">TO DO</a></li>
+        </ul>
+    </nav>
 
-        <footer>
+    <main>
+        <section>
+            <h2 id="welcome">欢迎</h2>
             <p>
-                这里是页脚，应该写联系方式、版权之类的地方，但是现在好像也不知道该写些什么，那就这样吧！
+                欢迎来到Hin's playground，
+                目前这里空空如也，是一片辽阔旷野，等待你我的书写，
+                希望未来它能将你的烦恼排解，翻开生活全新一页！
             </p>
-        </footer>
-    </body>
+        </section>
+
+        <section>
+            <h2 id="todo">TO DO</h2>
+            <p>这里可以记录一下我要做的事</p>
+            <dl>
+                <dt>学web</dt>
+                <dd>
+                    想学建站怎么办，多看教程别傻站。<br>
+                    现在就学习一下<a href="https://developer.mozilla.org/zh-CN/docs/Learn/">MDN的教程</a>吧,
+                    目前学到<a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks">这里</a>了。
+                </dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            这里是页脚，应该写联系方式、版权之类的地方，但是现在好像也不知道该写些什么，那就这样吧。
+        </p>
+    </footer>
+</body>
+
 </html>

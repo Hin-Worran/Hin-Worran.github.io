@@ -1,6 +1,12 @@
 html {
     background-color: #FFF7F0;
     color: #197A7A;
+    box-sizing: border-box;
+}
+
+
+*, *::after, *::before{
+    box-sizing: inherit;
 }
 
 header {
@@ -8,11 +14,16 @@ header {
     flex-flow: row nowrap;
     align-items: center;
     border-bottom: #197A7A 1em solid;
-    padding: 10px;
+    padding:0 10px 10px 0;
 }
 
 header img {
     margin: 0 10px;
+    width: 100px;
+}
+
+h1{
+    font-size: 3em;
 }
 
 body {
@@ -22,18 +33,18 @@ body {
     width: 80%;
 }
 
-footer{
+footer {
     border-top: #197A7A 0.5em solid;
 }
 
-a{
+a {
     color: #E0995F;
 }
 
-a:hover{
+a:hover {
     text-decoration: none;
 }
 
-dl{
+dl {
     list-style-type: square;
 }

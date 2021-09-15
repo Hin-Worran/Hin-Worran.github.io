@@ -1,0 +1,29 @@
+@media all and (max-width:600px) {
+    img{
+        display: none;
+    }
+}
+
+@media all and (max-width:320px) {
+    html{
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:240px) {
+    html{
+        font-size: 6px;
+    }
+}
+
+@media all and (max-width:120px) {
+    html{
+        font-size: 3px;
+    }
+}
+
+@media screen and (max-width:90px) {
+    html{
+        font-size: 1px;
+    }
+}

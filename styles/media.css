@@ -1,7 +1,14 @@
 @media all and (max-width:600px) {
-    img{
+    .toolbox dd img,
+    .head{
         display: none;
     }
+
+    .toolbox dd p{
+        width: 100%;
+    }
+
+    
 }
 
 @media all and (max-width:320px) {

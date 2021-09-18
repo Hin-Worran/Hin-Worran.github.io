@@ -1,8 +1,8 @@
-<!DOCTYPE html lang="zh-CN">
-<html>
+<!DOCTYPE html>
+<html lang="zh-CN">
 
 <head>
-    <meta setchar="utf-8">
+    <meta charset="utf-8">
     <meta name="author" content="Hin">
     <meta name="description" content="Hin's website">
     <meta name="viewport" content="width=device-width">
@@ -13,26 +13,36 @@
 
 <body>
     <header>
-        <img src="images/black-head.svg" alt="">
+        <img class="head" src="images/black-head.svg" alt="">
         <h1>Hin's Playground</h1>
     </header>
 
     <nav>
-        <h2>目录</h2>
         <ul>
-            <li><a href="#welcome">欢迎</a></li>
+            <li><a href="#welcome" style="margin-left: 0;">欢迎</a></li>
             <li><a href="#todo">TO DO</a></li>
-            <li><a href="#toolbox">工具箱</a></li>
+            <li><a href="#toolbox" style="margin-right: 0;">工具箱</a></li>
         </ul>
     </nav>
 
     <main>
+        <!-- <section id="menu">
+            <h2>目录</h2>
+            <ul>
+                <li><a href="#welcome">欢迎</a></li>
+                <li><a href="#todo">TO DO</a></li>
+                <li><a href="#toolbox">工具箱</a></li>
+            </ul>
+        </section> -->
         <section>
             <h2 id="welcome">欢迎</h2>
             <p>
-                欢迎来到Hin's playground，
-                目前这里空空如也，是一片辽阔旷野，等待你我的书写，
-                希望未来它能将你的烦恼排解，翻开生活全新一页！
+                欢迎来到Hin's playground，<br>
+                目前这里空空如也，<br>
+                就像一片辽阔旷野，<br>
+                等待着你我的书写，<br>
+                希望未来的它能将你的烦恼排解，<br>
+                翻开生活全新一页！
             </p>
         </section>
 
@@ -43,27 +53,31 @@
                 <dt>学web</dt>
                 <dd>
                     想学建站怎么办，多看教程别傻站。<br>
-                    现在就学习一下<a href="https://developer.mozilla.org/zh-CN/docs/Learn/">MDN的教程</a>吧,
-                    目前学到<a href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Backgrounds_and_borders">这里</a>了。
+                    现在就学习一下<a href="https://developer.mozilla.org/zh-CN/docs/Learn/" target="_blank">MDN的教程</a>吧,
+                    目前学到<a target="_blank"
+                        href="https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Handling_different_text_directions">这里</a>了。
                 </dd>
             </dl>
         </section>
 
-        <section>
+        <section class="toolbox">
             <h2 id="toolbox">工具箱</h2>
             <p>这里是我平日收藏的一些有用的网站。</p>
             <dl>
-                <dt><a href="https://tinypng.com/">TinyPNG</a></dt>
-                <dd>这个网站可以降低图片的大小，支持WebP、PNG和JPEG。<br>
+                <dt><a href="https://tinypng.com/" target="_blank">TinyPNG</a></dt>
+                <dd>
+                    <p>这个网站可以降低图片的大小，支持WebP、PNG和JPEG。</p>
                     <img src="images/tinypng.png" alt="TinyPNG网站的主要区域截图">
                 </dd>
-                <dt><a href="https://paletton.com/">Paletton</a></dt>
-                <dd>顾名思义，这是一个用来调色的网站，本站的颜色就是用这个选出来的，只要动动鼠标，就可以轻松获得好看的颜色，同时它还可以导出为CSS或HTML很方便使用。
+                <dt><a href="https://paletton.com/" target="_blank">Paletton</a></dt>
+                <dd>
+                    <p>顾名思义，这是一个用来调色的网站，本站的颜色就是用这个选出来的，只要动动鼠标，就可以轻松获得好看的颜色，同时它还可以导出为CSS或HTML很方便使用。</p>
+
                     <img src="images/paletton.png" alt="调色网站的截图，左边是一个圆形的颜色盘，右边是输出的颜色，上下是各种菜单选项">
                 </dd>
 
             </dl>
-        </section>  
+        </section>
     </main>
 
     <footer>

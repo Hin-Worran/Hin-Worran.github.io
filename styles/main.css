@@ -1,12 +1,11 @@
 @import url(media.css);
-
+/*通用设置*/
 html {
     background-color: #FFF7F0;
     color: #197A7A;
-    box-sizing: border-box;
     /*设置为替代盒模型*/
+    box-sizing: border-box;
 }
-
 
 *,
 *::after,
@@ -31,11 +30,7 @@ header img {
     width: 100px;
 }
 
-/* nav{
-    position: sticky;
-    top: 0;
-} */
-
+/*导航栏*/
 nav ul {
     display: flex;
     flex-flow: row nowrap;
@@ -99,17 +94,15 @@ a:hover {
     text-decoration: none;
 }
 
-dl {
-    list-style-type: square;
-}
 
-dt {
+/*工具箱模块*/
+.toolbox dt {
     font-size: 1.2em;
 }
 
 .toolbox dd {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
 }
 
 .toolbox dd p {
